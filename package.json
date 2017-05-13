@@ -1,7 +1,7 @@
 {
   "name": "simple_server",
   "version": "0.1.0",
-  "description": "Here be a simple server!",
+  "description": "Here be a HTTP simple server!",
   "bin": {
     "simple_server": "./bin/simple_server"
   },
@@ -17,7 +17,7 @@
   "license": "GPLv3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/btoll/stymie"
+    "url": "https://github.com/btoll/simple_server"
   }
 }
 

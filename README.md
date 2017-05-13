@@ -1,5 +1,7 @@
 # simple_server
 
+[![npm](https://img.shields.io/npm/v/simple_server.svg)](https://www.npmjs.com/package/simple_server)
+
 ## Installation
 
 `npm i simple_server`
