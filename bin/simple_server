@@ -10,6 +10,11 @@ const http = require('http');
 const args = process.argv;
 const idx = args.indexOf('-p');
 
+if (process.argv.length > 2 && idx === -1) {
+    console.log('Usage: simple_server [-p PORT]');
+    return 1;
+}
+
 const hostname = '127.0.0.1';
 const port = (idx > -1) ? Number(args[idx + 1]) : 8080;
 
